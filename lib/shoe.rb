@@ -14,7 +14,7 @@ class Shoe
   end
   
   def brand=(brand)
-    @brand = brand.uniq!
+    @brand.uniq! = brand
     BRANDS << brand
   end
     
